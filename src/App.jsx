@@ -33,7 +33,6 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Relógio digital</h1>
       <div className="display">
         <h1>
           {date.toLocaleTimeString()} {currentTime()}
